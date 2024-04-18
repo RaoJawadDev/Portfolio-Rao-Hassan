@@ -1,0 +1,434 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: "heebo-bold";
+  src: url(fonts/heebo.extrabold.ttf);
+}
+
+@font-face {
+  font-family: "heebo-thin";
+  src: url(fonts/heebo.thin.ttf);
+}
+
+@font-face {
+  font-family: "jet-font";
+  src: url(fonts/MajorMonoDisplay-Regular.ttf);
+}
+
+header {
+  height: 50px;
+  width: 100%;
+  background-color: #222831;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.icons-box {
+  height: 50px;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+
+}
+
+
+.icons-box a img {
+  height: 30px;
+}
+
+.icons-box a img:hover {
+  height: 34px;
+}
+
+
+
+#landing-page {
+  height: 500px;
+  width: 100%;
+  background-color: #31363f;
+  display: flex;
+  align-items: center;
+}
+
+.title-section {
+  height: 150px;
+  width: 93%;
+  margin-left: 5%;
+  margin-bottom: 11%;
+}
+
+#landing-page .title-section h1 {
+  font-family: heebo-bold;
+  color: white;
+  font-size: 67px;
+}
+
+
+.title-section h2 {
+  font-family: "jet-font";
+  color: white;
+  font-size: 36.8px;
+}
+
+#projects {
+  height: 1650px;
+  width: 100%;
+  background-color: #31363f;
+}
+
+.title-sect {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-sect h2 {
+  font-family: heebo-bold;
+  color: white;
+  font-size: 67px;
+}
+
+.project-title {
+  height: 40px;
+  width: 100%;
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-title h3 {
+  font-family: "heebo-thin";
+  color: white;
+  font-size: 30px;
+}
+
+.project-video {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video {
+  height: 280px;
+  width: 43%;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.video video {
+  height: 100%;
+  width: 100%;
+}
+
+footer {
+  height: 400px;
+  width: 100%;
+  background-color: #31363f;
+}
+
+.contact-details {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.mail-section {
+  height: 40px;
+  width: 100%;
+}
+
+.mail {
+  height: 40px;
+  width: 40%;
+  margin-left: 20%;
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+}
+
+.icon img {
+  height: 30px;
+}
+
+.mail-box {
+  height: 30px;
+  width: 80%;
+}
+
+.mail-box h4 a {
+  font-family: "heebo-bold";
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.mail-box h4 a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 465px) and (max-width: 640px) {
+  .icons-box {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .icons-box a img {
+    height: 30px;
+  }
+
+  .title-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #landing-page .title-section h1 {
+    font-family: heebo-bold;
+    color: white;
+    font-size: 47px;
+  }
+
+  .title-section h2 {
+    font-family: "jet-font";
+    color: white;
+    font-size: 20.8px;
+  }
+
+  .title-sect h2 {
+    font-family: heebo-bold;
+    color: white;
+    font-size: 47px;
+  }
+
+  .project-title h3 {
+    font-family: "heebo-thin";
+    color: white;
+    font-size: 20px;
+  }
+
+  .project-video {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .video {
+    height: 200px;
+    width: 90%;
+    border-radius: 25px;
+    overflow: hidden;
+  }
+
+  .video video {
+    height: 100%;
+    width: 100%;
+  }
+
+  .contact-details {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+
+  .mail-section {
+    height: 40px;
+    width: 100%;
+  }
+
+  .mail {
+    height: 40px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .icon {
+    height: 30px;
+    width: 30px;
+  }
+
+  .icon img {
+    height: 30px;
+  }
+
+  .mail-box {
+    height: 30px;
+    width: 80%;
+  }
+
+  .mail-box h4 a {
+    font-family: "heebo-bold";
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  .mail-box h4 a:hover {
+    text-decoration: underline;
+  }
+}
+
+@media only screen and (min-width: 100px) and (max-width: 465px) {
+  #projects {
+    height: 1350px;
+    width: 100%;
+    background-color: #31363f;
+  }
+
+  #landing-page {
+    height: 300px;
+    width: 100%;
+    background-color: #31363f;
+    display: flex;
+    align-items: center;
+  }
+
+  .icons-box {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .icons-box a img {
+    height: 30px;
+  }
+
+  .title-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #landing-page .title-section h1 {
+    font-family: heebo-bold;
+    color: white;
+    font-size: 32px;
+  }
+
+  .title-section h2 {
+    font-family: "jet-font";
+    color: white;
+    font-size: 16.8px;
+  }
+
+  .title-sect h2 {
+    font-family: heebo-bold;
+    color: white;
+    font-size: 32px;
+  }
+
+  .project-title h3 {
+    font-family: "heebo-thin";
+    color: white;
+    font-size: 18px;
+  }
+
+  .project-video {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .video {
+    height: 150px;
+    width: 90%;
+    border-radius: 25px;
+    overflow: hidden;
+  }
+
+  .video video {
+    height: 100%;
+    width: 100%;
+  }
+
+  .contact-details {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+
+  .mail-section {
+    height: 40px;
+    width: 100%;
+  }
+
+  .mail {
+    height: 40px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .icon {
+    height: 20px;
+    width: 20px;
+  }
+
+  .icon img {
+    height: 20px;
+  }
+
+  .mail-box {
+    height: 30px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+  .mail-box h4 a {
+    font-family: "heebo-bold";
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  .mail-box h4 a:hover {
+    text-decoration: underline;
+  }
+}
