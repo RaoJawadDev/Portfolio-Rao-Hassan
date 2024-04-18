@@ -10,17 +10,17 @@ body {
 
 @font-face {
   font-family: "heebo-bold";
-  src: url(fonts/heebo.extrabold.ttf);
+  src: url(heebo.extrabold.ttf);
 }
 
 @font-face {
   font-family: "heebo-thin";
-  src: url(fonts/heebo.thin.ttf);
+  src: url(heebo.thin.ttf);
 }
 
 @font-face {
   font-family: "jet-font";
-  src: url(fonts/MajorMonoDisplay-Regular.ttf);
+  src: url(MajorMonoDisplay-Regular.ttf);
 }
 
 header {
